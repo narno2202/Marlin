@@ -52,7 +52,7 @@
 #endif
 
 bool DGUSAutoTurnOff = false;
-MKS_Language mks_language_index; // Initialized by settings.load()
+MKS_Language mks_language_index; // Initialized by settings.load
 
 void DGUSScreenHandlerMKS::sendinfoscreen_ch(const uint16_t *line1, const uint16_t *line2, const uint16_t *line3, const uint16_t *line4) {
   dgus.writeVariable(VP_MSGSTR1, line1, 32, true);
